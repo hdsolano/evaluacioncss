@@ -1,0 +1,162 @@
+
+header{
+  background:  #5b7989;
+  border-radius:10px 10px 0 0 ;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: auto;
+  }
+header >h1 {
+  color: white;
+  text-shadow: 2px 2px 2px #02010a;
+}
+body{
+  font-family: Dancing Script ;
+  background: #02010a;
+}
+section nav{
+  display: inline;
+}
+.encabezado h1{
+  text-align: center;
+}
+.contenido{
+  width: 900px;
+  margin: auto;
+}
+#Inicio{
+  text-decoration: none;
+}
+.imgcentral{
+  background:#82c3a6;
+  padding: 16px 0 16px 0 ;
+  text-align: center;
+}
+#Elles{
+  border: 10px solid black;
+  border-radius: 10px  10px;
+}
+#img1{
+  width: 80%;
+  margin: 0 auto;
+}
+.contenedor{
+  background: #d5c75f;
+  border: 1px;
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 16px;
+
+}
+.contenedor div {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.izquierda .derecha{
+  flex-direction: column;
+  margin: auto;
+}
+.izquierda img,
+.derecha img {
+    margin: auto;
+    width: 80%;
+    border: 2px solid black;
+}
+#img1,#img2{
+  box-shadow: 10px 10px 10px #82c3a6  ;
+}
+#img1:hover{
+  transform: rotate(10deg);
+}
+#img2:hover{
+  transform: translate(20px ,-5px);
+}
+#enlaces a{
+  color: white;
+  font-size: 16px;
+  text-align:center;
+}
+.contenedor a {
+  color: black;
+  font-size: 16px;
+  text-align:center;
+}
+footer{
+  background: #C6d5c5;
+  border-radius: 0 0 10px 10px;
+  padding: 1px 0 5px 0;
+  margin: 0 auto;
+}
+#columnas{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-content: space-between;
+  color: black;
+}
+#columnas article{
+width: 25%
+}
+footer{
+  width: 900px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.redessolciales img{
+  border-radius: 12px 12px 12px 12px;
+}
+.contenedor div {
+  width: 33%;
+}
+.imagen1{
+  filter: blur(10px);
+}
+.imagen2 ,.imagen4, .imagen6{
+  filter: grayscale(100%);
+}
+.imagen3{
+  filter: sepia(90%);
+}
+
+@media (max-width:900px){
+.contenido {
+width: 100%;
+}
+.contenedor div {
+width: 100%;
+}
+.encabezado {
+display: flex;
+flex-direction: column;
+}
+#img1{
+  width: 80%;
+  margin: 0 auto;
+}
+#img2{
+  width: 80%;
+  margin: 0 auto;
+}
+.imgcentral img{
+  width: 80%;
+}
+#columnas{
+  display: block;
+  color: black;
+}
+footer{
+  width: 100%;
+  text-align: center;
+}
+footer img{
+  width: 25px;
+}
+#columnas article{
+  width: 100%;
+}
+}
